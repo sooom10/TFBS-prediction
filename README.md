@@ -1,15 +1,11 @@
 # TFBS-prediction
 
 # Citation
-@article{avsec2021base,
-  title={Base-resolution models of transcription-factor binding reveal soft motif syntax},
-  author={Avsec, {\v{Z}}iga and Weilert, Melanie and Shrikumar, 
-    Avanti and Krueger, Sabrina and Alexandari, Amr and Dalal, Khyati and Fropf,
-    Robin and McAnany, Charles and Gagneur, Julien and Kundaje, Anshul and others},
-  journal={Nature Genetics},
-  volume={53},
-  number={3},
-  pages={354--366},
-  year={2021},
-  publisher={Nature Publishing Group US New York}
-}
+
+This project is based on [BPNet](https://github.com/kundajelab/bpnet) by the Kundaje Lab.
+
+If you use this repository, please cite the original BPNet paper:
+
+> Avsec, Ž., Weilert, M., Shrikumar, A. et al.  
+> *Base-resolution models of transcription-factor binding reveal soft motif syntax.*  
+> Nature Genetics 53, 354–366 (2021). https://doi.org/10.1038/s41588-021-00782-6
