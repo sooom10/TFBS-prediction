@@ -2,7 +2,7 @@
 
 # Citation
 
-This project is based on [BPNet](https://github.com/kundajelab/bpnet) by the Kundaje Lab.
+This project is based on [BPNet-refactor](https://github.com/kundajelab/bpnet-refactor.git) by the Kundaje Lab.
 
 If you use this repository, please cite the original BPNet paper:
 
