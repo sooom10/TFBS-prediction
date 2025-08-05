@@ -140,7 +140,7 @@ and then run this code
 # Background_generation
 ## gc matched negatives
 
-  # bpnet-gc-reference - get gc content after binning the entire genome into bins - You might be choose to run just once for a genome for a specific input sequence length and reuse the genomewide_gc_stride_flank_size.gc.bed output for other datasets
+      # bpnet-gc-reference - get gc content after binning the entire genome into bins - You might be choose to run just once for a genome for a specific input sequence length and reuse the genomewide_gc_stride_flank_size.gc.bed output for other datasets
 
     bpnet-gc-reference \
             --ref_fasta GR/reference/hg38.genome.fa \
