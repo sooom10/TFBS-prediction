@@ -286,7 +286,7 @@ make these two json file
             --model-arch-name BPNet \
             --model-arch-params-json $MODEL_PARAMS \
             --sequence-generator-name BPNet \
-            --model-output-filename GR_model \
+            --model-output-filename model \
             --input-seq-len 2114 \
             --output-len 1000 \
             --shuffle \
@@ -306,7 +306,7 @@ make these two json file
     # mkdir $PREDICTIONS_DIR
 
     bpnet-predict \
-            --model $MODEL_DIR/GR_model_split000 \
+            --model $MODEL_DIR/model_split000 \
             --chrom-sizes $CHROM_SIZES \
             --chroms chr7 chr13 chr17 chr19 chr21 chrX \
             --test-indices-file None \
@@ -331,7 +331,7 @@ make these two json file
     
     bpnet-shap \
             --reference-genome $REFERENCE_GENOME \
-            --model $MODEL_DIR/GR_model_split000  \
+            --model $MODEL_DIR/model_split000  \
             --bed-file $DATA_DIR/peaks_inliers.bed \
             --output-dir $SHAP_DIR \
             --input-seq-len 2114 \
