@@ -185,7 +185,7 @@ make these two json file
         }
     }
 
-## best_params.json
+## bpnet_params.json
 
     {
         "input_len": 2114,
